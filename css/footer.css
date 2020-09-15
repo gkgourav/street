@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.foot2{
+    text-align: center;
+    background-color: wheat;
+    color: white;
+    height: 30px;
+    padding-top: 7px;
+}
+.foot2 p{
+    text-shadow: 2px 2px 2px gray;
+}
+.foot1{
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+}
+.foot1 ul li{
+    list-style: none;
+    margin-top: 25px;
+}
+.foot3{
+    width: 50%;
+    color: black;
+}
+.foot4{
+    width: 25%;
+    color: darkslategray;
+    padding-top: 10px;
+}
+.foot3 ul li ul{
+    display: flex;
+}
+.foot3 ul li ul li{
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 520px){
+    .foot1{
+        display: block;
+    }
+}
