@@ -19,11 +19,14 @@
     padding-left: 50px;
 }
 
-.lines{
+.lines {
     font-size: 30px;
     cursor: pointer;
     margin-right: 50px;
     color: white;
+    position: absolute;
+    top: 2%;
+    right: -10%;
 }
 
 .text-big{
