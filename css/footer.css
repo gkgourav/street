@@ -16,9 +16,9 @@
     display: flex;
     width: 100%;
     padding-top: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 70px;
+    padding-bottom: 20px;
 }
 .foot1 ul li{
     list-style: none;
@@ -40,6 +40,17 @@
     margin-right: 20px;
 }
 
+
+@media only screen and (max-width: 800px){
+    .foot1{
+        display: flex;
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+    }
+}
 
 @media only screen and (max-width: 520px){
     .foot1{
