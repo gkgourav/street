@@ -57,3 +57,48 @@
         display: block;
     }
 }
+
+.facebook{
+    width: 20px;
+    height: 20px;
+    padding: 15% 25%;
+}
+
+.facebook:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
+}
+.instagram{
+    width: 20px;
+    height: 20px;
+    padding: 10% 15%;
+}
+
+.instagram:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
+}
+.twitter{
+    width: 20px;
+    height: 20px;
+    padding: 10% 15%;
+}
+
+.twitter:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
+}
+.whatsapp{
+    width: 20px;
+    height: 20px;
+    padding: 10% 15%;
+}
+
+.whatsapp:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
+}
