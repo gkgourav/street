@@ -54,10 +54,11 @@
     }
     
 
-    .main-name{
-        color: white;
-        font-size: 1.9rem;
-        padding-left: 50px;
+    .main-name img{
+        width: 90px;
+        margin-top: 15px;
+        margin-left: 45px;
+        filter: drop-shadow(0px 1px 14px black);
     }
     
 }
@@ -118,11 +119,12 @@
     }
     
 
-    .main-name{
-        color: white;
-        font-size: 1.9rem;
-        padding-left: 50px;
-    }
+    .main-name img{
+        width: 90px;
+        margin-top: 15px;
+        margin-left: 45px;
+        filter: drop-shadow(0px 1px 14px black);
+}
     
 }
 
@@ -149,13 +151,6 @@
         background-size: cover;
         background-blend-mode: darken;
         height: 60vh;
-    }
-
-    .main-name{
-        color: white;
-        font-size: 1.1rem;
-        padding-left: 50px;
-        margin-left: -35px;
     }
 
     .burger{
@@ -238,4 +233,10 @@
         top: 2%;
         right: -10%;
     }
+    .main-name img{
+        width: 70px;
+        margin-top: 15px;
+        margin-left: 15px;
+        filter: drop-shadow(0px 1px 14px black);
+}
 }

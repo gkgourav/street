@@ -13,10 +13,11 @@
     align-items: center;
 }
 
-.main-name{
-    color: white;
-    font-size: 2.1rem;
-    padding-left: 50px;
+.main-name img{
+        width: 90px;
+        margin-top: 15px;
+        margin-left: 45px;
+        filter: drop-shadow(0px 1px 14px black);
 }
 
 .lines{
