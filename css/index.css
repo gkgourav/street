@@ -16,8 +16,9 @@
 .main-name img{
         width: 90px;
         margin-top: 15px;
-        margin-left: 45px;
+        margin-right: 45px;
         filter: drop-shadow(0px 1px 14px black);
+        
 }
 
 .lines{
@@ -121,6 +122,10 @@
     width: 100%;
 }
 
+.burger{
+    margin-left: 20px;
+}
+
 .l{
     padding: 7px;
     width: 30%;
@@ -161,7 +166,7 @@
     width: 0;
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     z-index: 1;
     background: linear-gradient(-124deg,#8b4513, maroon);
     overflow-x: hidden;
